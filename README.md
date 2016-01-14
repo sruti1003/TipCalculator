@@ -18,7 +18,7 @@ WORKING
 
 
 
-RECAPTURING DATA
+RECAPTURING DATA BETWEEN APP RESTARTS
 
 ![gif2](https://github.com/sruti1003/TipCalculator/raw/master/secondNew.gif)
 
