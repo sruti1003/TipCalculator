@@ -13,11 +13,13 @@ Completed:
 
 
 WORKING
+
 ![gif1](https://github.com/sruti1003/TipCalculator/raw/master/firstNew.gif)
 
 
 
 RECAPTURING DATA
+
 ![gif2](https://github.com/sruti1003/TipCalculator/raw/master/secondNew.gif)
 
 
