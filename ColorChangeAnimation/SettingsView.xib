@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Quicksand-Regular.otf">
+            <string>Quicksand-Regular</string>
+            <string>Quicksand-Regular</string>
+            <string>Quicksand-Regular</string>
+            <string>Quicksand-Regular</string>
+            <string>Quicksand-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.80000000000000004" contentMode="scaleToFill" id="DMJ-9r-2s1" userLabel="Settings View" customClass="SHSettingsView" customModule="SHTipCalculator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iJc-tD-L5f">
+                    <rect key="frame" x="275" y="10" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="0VF-FU-401"/>
+                        <constraint firstAttribute="height" constant="50" id="Q0V-Uw-iFA"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biW-m8-7N2">
+                    <rect key="frame" x="225" y="80" width="150" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="8pF-DJ-Vjc"/>
+                        <constraint firstAttribute="width" constant="150" id="zrW-Az-24B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minimum Tip Percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5r-zg-nWh">
+                    <rect key="frame" x="20" y="170" width="220" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Pd7-iL-A5z"/>
+                        <constraint firstAttribute="width" constant="220" id="lE2-q4-8lx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Tip Percentage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jK-8z-8V1">
+                    <rect key="frame" x="20" y="211" width="220" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="L5r-o4-MmZ"/>
+                        <constraint firstAttribute="width" constant="220" id="Ntq-uv-gVG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="10%" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4we-Wf-kdv" customClass="SHTextfield" customModule="SHTipCalculator" customModuleProvider="target">
+                    <rect key="frame" x="480" y="170" width="100" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="UMT-ZB-IvJ"/>
+                        <constraint firstAttribute="width" constant="100" id="dr0-at-Ddg"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="50%" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="toc-L2-K5b" customClass="SHTextfield" customModule="SHTipCalculator" customModuleProvider="target">
+                    <rect key="frame" x="480" y="211" width="100" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="QQO-Cg-g8A"/>
+                        <constraint firstAttribute="height" constant="21" id="ekQ-9u-oyK"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="biW-m8-7N2" firstAttribute="top" secondItem="DMJ-9r-2s1" secondAttribute="top" constant="80" id="3Gd-vE-vas"/>
+                <constraint firstItem="iJc-tD-L5f" firstAttribute="centerX" secondItem="DMJ-9r-2s1" secondAttribute="centerX" id="7St-h3-tFy"/>
+                <constraint firstItem="4we-Wf-kdv" firstAttribute="top" secondItem="biW-m8-7N2" secondAttribute="bottom" constant="50" id="EMh-ID-Vem"/>
+                <constraint firstItem="9jK-8z-8V1" firstAttribute="top" secondItem="v5r-zg-nWh" secondAttribute="bottom" constant="20" id="F96-79-g90"/>
+                <constraint firstItem="biW-m8-7N2" firstAttribute="centerX" secondItem="DMJ-9r-2s1" secondAttribute="centerX" id="U8h-mg-bAb"/>
+                <constraint firstItem="9jK-8z-8V1" firstAttribute="leading" secondItem="DMJ-9r-2s1" secondAttribute="leading" constant="20" id="UKb-ij-4ux"/>
+                <constraint firstItem="v5r-zg-nWh" firstAttribute="top" secondItem="biW-m8-7N2" secondAttribute="bottom" constant="50" id="dqG-Kp-OhO"/>
+                <constraint firstItem="v5r-zg-nWh" firstAttribute="leading" secondItem="DMJ-9r-2s1" secondAttribute="leading" constant="20" id="epX-AM-IkS"/>
+                <constraint firstAttribute="trailing" secondItem="4we-Wf-kdv" secondAttribute="trailing" constant="20" id="ioS-vf-qKf"/>
+                <constraint firstAttribute="trailing" secondItem="toc-L2-K5b" secondAttribute="trailing" constant="20" id="j4l-h2-DBX"/>
+                <constraint firstItem="iJc-tD-L5f" firstAttribute="top" secondItem="DMJ-9r-2s1" secondAttribute="top" constant="10" id="pxS-Xx-y6F"/>
+                <constraint firstItem="toc-L2-K5b" firstAttribute="top" secondItem="4we-Wf-kdv" secondAttribute="bottom" constant="20" id="pzQ-sC-b1R"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="customHeaderImageView" destination="iJc-tD-L5f" id="VpY-W6-9d3"/>
+                <outlet property="maximumPercentageTextField" destination="toc-L2-K5b" id="To6-eu-LW7"/>
+                <outlet property="minimumPercentageTextField" destination="4we-Wf-kdv" id="WCk-2Y-SBq"/>
+            </connections>
+            <point key="canvasLocation" x="320" y="139.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CBD5DDBF370D44E1DBD2A1D32854FB /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 929BF7B1F77F79D2FA81F6383DB0AA05 /* FontAwesomeKit-dummy.m */; };
+		1D3980895CF1464EFB400A43A049FE92 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F8032632B70A6D3B5D0CA52185272461 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F9FDA3F90CE1B7011ACC13D1D5EAB2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D589B90C8F87DFCA1836B057C8F311 /* Foundation.framework */; };
+		34959E24D31C1AF68AFF54A4A56A319B /* UIImageEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1F5841FF8C5AA83497C4B1420DBCCC /* UIImageEffects-dummy.m */; };
+		3947A749380BCCD4E5DFC0566E32ACCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D589B90C8F87DFCA1836B057C8F311 /* Foundation.framework */; };
+		4D479FC686D7F09C7FAF2BFB5CF4473B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E14573D56EB349EB18ED9137DC1A7D /* Accelerate.framework */; };
+		5E1789E6C425B76C700949ED49BD1528 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 80793F1CE93643795F736B801961577D /* FAKFontAwesome.m */; };
+		6F93F338676BBAF025AF9565CB7B6553 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = E0694597AFD95189CE206CAC2C0B57E7 /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758A5BAAD7318C618A4A75435DFB8128 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1BFFE09FAD722258C3C743420D9407 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F719DF3D613B30CD33DF8329E977F6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0665789CDDF61BD96CB2CC3B3DDF3FA5 /* CoreText.framework */; };
+		ABC76F567E1A7C5276C72C8704603548 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		B440A551CDBBC2FFCA704C696D5C4155 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DE7C4E2B1E2D683EAA9693AC087272 /* FAKIcon.m */; };
+		B68A763D44E3C0A8109756382ADDDD72 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 74526254A57821578221535E9E99C71A /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C053417EAB71B2EE06F846887305FE1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516BF6FAA0479117E15893EEA5D944D0 /* UIKit.framework */; };
+		C2B3EFDE66FBDDC2D375C4D195ECD804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D589B90C8F87DFCA1836B057C8F311 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		442D5D592AF67234C61F82C16634F9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8404075883633CC2D3E8F7028DB5F7BC;
+			remoteInfo = FontAwesomeKit;
+		};
+		9766EBF232A8F377AB4607B75BBF4CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E4759AF1EA481B090AC2DE79FA5415;
+			remoteInfo = UIImageEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0573E239193F8ADAB15AB8008DB205DD /* libFontAwesomeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFontAwesomeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0665789CDDF61BD96CB2CC3B3DDF3FA5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		18D10BF8CDF9A905361E32AACA173CBD /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		1C4E011F61100B2F14802F9D82504A8E /* UIImageEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageEffects-prefix.pch"; sourceTree = "<group>"; };
+		1CB6AEF3FCFD22C763E12B6D55285C2B /* libUIImageEffects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIImageEffects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		266AF1BD0F4E43CA46273E872A4A3666 /* UIImageEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIImageEffects.xcconfig; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		31F03E7FDEE4C1ADB7F7728BB79D922D /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E1BFFE09FAD722258C3C743420D9407 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		3F1F5841FF8C5AA83497C4B1420DBCCC /* UIImageEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageEffects-dummy.m"; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		516BF6FAA0479117E15893EEA5D944D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		74526254A57821578221535E9E99C71A /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		80793F1CE93643795F736B801961577D /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		929BF7B1F77F79D2FA81F6383DB0AA05 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A3F514FD31E4C336B4C59D103614A927 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4E14573D56EB349EB18ED9137DC1A7D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		B7D589B90C8F87DFCA1836B057C8F311 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7BFF3BCC64889ABC13C643BC829FD14 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		E0694597AFD95189CE206CAC2C0B57E7 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		F5DE7C4E2B1E2D683EAA9693AC087272 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		F8032632B70A6D3B5D0CA52185272461 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414426C311D621ABC98A09B91958B83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D479FC686D7F09C7FAF2BFB5CF4473B /* Accelerate.framework in Frameworks */,
+				3947A749380BCCD4E5DFC0566E32ACCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65260F0B770DC1C0A127B3DE6CE3D6F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9FDA3F90CE1B7011ACC13D1D5EAB2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C390C8A1D49A22E229E9EE30B2F73130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F719DF3D613B30CD33DF8329E977F6 /* CoreText.framework in Frameworks */,
+				C2B3EFDE66FBDDC2D375C4D195ECD804 /* Foundation.framework in Frameworks */,
+				C053417EAB71B2EE06F846887305FE1A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0EB31C8BF449606B0F724B01E0EB88F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7BFF3BCC64889ABC13C643BC829FD14 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				550A3DA9544F3EF7F14D25B5563B508B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28253FA506A985409F8177912CEABAA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0573E239193F8ADAB15AB8008DB205DD /* libFontAwesomeKit.a */,
+				A3F514FD31E4C336B4C59D103614A927 /* libPods.a */,
+				1CB6AEF3FCFD22C763E12B6D55285C2B /* libUIImageEffects.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3281F8D090614CBF7CDA188FFFC5FDAF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E1BFFE09FAD722258C3C743420D9407 /* FAKIcon.h */,
+				F5DE7C4E2B1E2D683EAA9693AC087272 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		47ED351C7454074B1980CD7669216670 /* UIImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				E0694597AFD95189CE206CAC2C0B57E7 /* UIImage+ImageEffects.h */,
+				F8032632B70A6D3B5D0CA52185272461 /* UIImage+ImageEffects.m */,
+				5CE5511FCD698E4AC050179916AF537F /* Support Files */,
+			);
+			path = UIImageEffects;
+			sourceTree = "<group>";
+		};
+		550A3DA9544F3EF7F14D25B5563B508B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4E14573D56EB349EB18ED9137DC1A7D /* Accelerate.framework */,
+				0665789CDDF61BD96CB2CC3B3DDF3FA5 /* CoreText.framework */,
+				B7D589B90C8F87DFCA1836B057C8F311 /* Foundation.framework */,
+				516BF6FAA0479117E15893EEA5D944D0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CE5511FCD698E4AC050179916AF537F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				266AF1BD0F4E43CA46273E872A4A3666 /* UIImageEffects.xcconfig */,
+				3F1F5841FF8C5AA83497C4B1420DBCCC /* UIImageEffects-dummy.m */,
+				1C4E011F61100B2F14802F9D82504A8E /* UIImageEffects-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImageEffects";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				E2FC6F17C9EE33B5F67CBBEBACE17FCB /* Pods */,
+				28253FA506A985409F8177912CEABAA5 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A24F1294E9E5F0BB022A1FFC06EBA2D7 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				74526254A57821578221535E9E99C71A /* FAKFontAwesome.h */,
+				80793F1CE93643795F736B801961577D /* FAKFontAwesome.m */,
+				0EB31C8BF449606B0F724B01E0EB88F8 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		C8D8D64B8DEACF99410A170A05E77299 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D10BF8CDF9A905361E32AACA173CBD /* FontAwesomeKit.xcconfig */,
+				929BF7B1F77F79D2FA81F6383DB0AA05 /* FontAwesomeKit-dummy.m */,
+				31F03E7FDEE4C1ADB7F7728BB79D922D /* FontAwesomeKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
+			sourceTree = "<group>";
+		};
+		C98E6B16F88232668104B9B078E41F42 /* FontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				3281F8D090614CBF7CDA188FFFC5FDAF /* Core */,
+				A24F1294E9E5F0BB022A1FFC06EBA2D7 /* FontAwesome */,
+				C8D8D64B8DEACF99410A170A05E77299 /* Support Files */,
+			);
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		E2FC6F17C9EE33B5F67CBBEBACE17FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C98E6B16F88232668104B9B078E41F42 /* FontAwesomeKit */,
+				47ED351C7454074B1980CD7669216670 /* UIImageEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FAF3EA2251E88346198F6FE565417EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68A763D44E3C0A8109756382ADDDD72 /* FAKFontAwesome.h in Headers */,
+				758A5BAAD7318C618A4A75435DFB8128 /* FAKIcon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F63D326635A8FF32A8BE346E7BCDDDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F93F338676BBAF025AF9565CB7B6553 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		69B4EE1696AEA5901A57A12C62D223FD /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D1D304FDCEDC500A85C780D6025FDF /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				9D01B389DBB200EE27EC38F66FC46FC9 /* Sources */,
+				65260F0B770DC1C0A127B3DE6CE3D6F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27316A19B0E1D73AD7432D4BB8783F5B /* PBXTargetDependency */,
+				30A7DFE30F81C1828E415F7591DFE974 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = A3F514FD31E4C336B4C59D103614A927 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8404075883633CC2D3E8F7028DB5F7BC /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B426718D456B4660F5F1E6BCE98E545 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				FB4F09F7A057E08459B694EFA9E0CB06 /* Sources */,
+				C390C8A1D49A22E229E9EE30B2F73130 /* Frameworks */,
+				2FAF3EA2251E88346198F6FE565417EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 0573E239193F8ADAB15AB8008DB205DD /* libFontAwesomeKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2E4759AF1EA481B090AC2DE79FA5415 /* UIImageEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F844CCFEE15E2C4B985497F7D81CDD9C /* Build configuration list for PBXNativeTarget "UIImageEffects" */;
+			buildPhases = (
+				EA63B00558164EF1F1B0A7BB9DA13E1F /* Sources */,
+				414426C311D621ABC98A09B91958B83B /* Frameworks */,
+				4F63D326635A8FF32A8BE346E7BCDDDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIImageEffects;
+			productName = UIImageEffects;
+			productReference = 1CB6AEF3FCFD22C763E12B6D55285C2B /* libUIImageEffects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 28253FA506A985409F8177912CEABAA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8404075883633CC2D3E8F7028DB5F7BC /* FontAwesomeKit */,
+				69B4EE1696AEA5901A57A12C62D223FD /* Pods */,
+				F2E4759AF1EA481B090AC2DE79FA5415 /* UIImageEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D01B389DBB200EE27EC38F66FC46FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC76F567E1A7C5276C72C8704603548 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA63B00558164EF1F1B0A7BB9DA13E1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3980895CF1464EFB400A43A049FE92 /* UIImage+ImageEffects.m in Sources */,
+				34959E24D31C1AF68AFF54A4A56A319B /* UIImageEffects-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4F09F7A057E08459B694EFA9E0CB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1789E6C425B76C700949ED49BD1528 /* FAKFontAwesome.m in Sources */,
+				B440A551CDBBC2FFCA704C696D5C4155 /* FAKIcon.m in Sources */,
+				04CBD5DDBF370D44E1DBD2A1D32854FB /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27316A19B0E1D73AD7432D4BB8783F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = 8404075883633CC2D3E8F7028DB5F7BC /* FontAwesomeKit */;
+			targetProxy = 442D5D592AF67234C61F82C16634F9F7 /* PBXContainerItemProxy */;
+		};
+		30A7DFE30F81C1828E415F7591DFE974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIImageEffects;
+			target = F2E4759AF1EA481B090AC2DE79FA5415 /* UIImageEffects */;
+			targetProxy = 9766EBF232A8F377AB4607B75BBF4CF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199406B8CDE75EE7CFA694302603504A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CC32B0FA233FC630FEF265830AB490F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266AF1BD0F4E43CA46273E872A4A3666 /* UIImageEffects.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageEffects/UIImageEffects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DAA96BA5A5021439BBFC759C2D0FB11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266AF1BD0F4E43CA46273E872A4A3666 /* UIImageEffects.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImageEffects/UIImageEffects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		61C95F37AE45B8A9278B7D11E392A9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D10BF8CDF9A905361E32AACA173CBD /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E439BEFC8DEAC86FF49F494835095727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E4BA266016ABD49B96ED026C5C07375E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D10BF8CDF9A905361E32AACA173CBD /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B426718D456B4660F5F1E6BCE98E545 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BA266016ABD49B96ED026C5C07375E /* Debug */,
+				61C95F37AE45B8A9278B7D11E392A9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D1D304FDCEDC500A85C780D6025FDF /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E439BEFC8DEAC86FF49F494835095727 /* Debug */,
+				199406B8CDE75EE7CFA694302603504A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F844CCFEE15E2C4B985497F7D81CDD9C /* Build configuration list for PBXNativeTarget "UIImageEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC32B0FA233FC630FEF265830AB490F /* Debug */,
+				5DAA96BA5A5021439BBFC759C2D0FB11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

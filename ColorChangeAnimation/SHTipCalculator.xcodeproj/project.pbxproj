@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17946AD4B653B2D6EE4F4963 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DDB9F7F59142BAEFCC629D /* libPods.a */; };
+		678451E41C38F08300A8BA14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678451E31C38F08300A8BA14 /* AppDelegate.swift */; };
+		678451E91C38F08300A8BA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678451E71C38F08300A8BA14 /* Main.storyboard */; };
+		678451EC1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 678451EA1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodeld */; };
+		678451EE1C38F08300A8BA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678451ED1C38F08300A8BA14 /* Assets.xcassets */; };
+		678451F11C38F08300A8BA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678451EF1C38F08300A8BA14 /* LaunchScreen.storyboard */; };
+		678451FC1C38F08300A8BA14 /* ColorChangeAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678451FB1C38F08300A8BA14 /* ColorChangeAnimationTests.swift */; };
+		678452071C38F08300A8BA14 /* ColorChangeAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678452061C38F08300A8BA14 /* ColorChangeAnimationUITests.swift */; };
+		678452151C38F8CB00A8BA14 /* CCAHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678452141C38F8CB00A8BA14 /* CCAHomeViewController.swift */; };
+		678452171C3A2C4300A8BA14 /* CCALinearInterpolationColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678452161C3A2C4300A8BA14 /* CCALinearInterpolationColors.swift */; };
+		67CFEF891C3AD3FE00F83EEA /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFEF881C3AD3FE00F83EEA /* UIColor.swift */; };
+		67CFEF981C3B084700F83EEA /* daf7250099031398385091fb5416e385.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF8F1C3B084700F83EEA /* daf7250099031398385091fb5416e385.jpg */; };
+		67CFEF991C3B084700F83EEA /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF901C3B084700F83EEA /* Quicksand_Dash.otf */; };
+		67CFEF9A1C3B084700F83EEA /* Quicksand-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF911C3B084700F83EEA /* Quicksand-Bold.otf */; };
+		67CFEF9B1C3B084700F83EEA /* Quicksand-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF921C3B084700F83EEA /* Quicksand-BoldItalic.otf */; };
+		67CFEF9C1C3B084700F83EEA /* Quicksand-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF931C3B084700F83EEA /* Quicksand-Italic.otf */; };
+		67CFEF9D1C3B084700F83EEA /* Quicksand-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF941C3B084700F83EEA /* Quicksand-Light.otf */; };
+		67CFEF9E1C3B084700F83EEA /* Quicksand-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF951C3B084700F83EEA /* Quicksand-LightItalic.otf */; };
+		67CFEF9F1C3B084700F83EEA /* Quicksand-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF961C3B084700F83EEA /* Quicksand-Regular.otf */; };
+		67CFEFA01C3B084700F83EEA /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEF971C3B084700F83EEA /* SIL Open Font License.txt */; };
+		67CFEFA21C3B0B8900F83EEA /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFEFA11C3B0B8900F83EEA /* UIFont.swift */; };
+		67CFEFB11C3B658A00F83EEA /* TipPercentageChangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEFB01C3B658A00F83EEA /* TipPercentageChangeView.xib */; };
+		67CFEFB31C3CB66100F83EEA /* CCALinearInterpolationPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFEFB21C3CB66100F83EEA /* CCALinearInterpolationPercentage.swift */; };
+		67CFEFB51C3D867C00F83EEA /* SHPressAndHoldGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFEFB41C3D867C00F83EEA /* SHPressAndHoldGestureRecognizer.swift */; };
+		67CFEFB71C3DF9CE00F83EEA /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67CFEFB61C3DF9CE00F83EEA /* SettingsView.xib */; };
+		67CFEFBB1C3DFC0400F83EEA /* SHTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFEFBA1C3DFC0400F83EEA /* SHTextField.swift */; };
+		67CFEFBD1C3DFF9F00F83EEA /* SHSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CFEFBC1C3DFF9F00F83EEA /* SHSettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		678451F81C38F08300A8BA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678451D81C38F08300A8BA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678451DF1C38F08300A8BA14;
+			remoteInfo = ColorChangeAnimation;
+		};
+		678452031C38F08300A8BA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678451D81C38F08300A8BA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678451DF1C38F08300A8BA14;
+			remoteInfo = ColorChangeAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32DDB9F7F59142BAEFCC629D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD09A18AE5B7ADD6AF83130 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		678451E01C38F08300A8BA14 /* SHTipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHTipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		678451E31C38F08300A8BA14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		678451E81C38F08300A8BA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		678451EB1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorChangeAnimation.xcdatamodel; sourceTree = "<group>"; };
+		678451ED1C38F08300A8BA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		678451F01C38F08300A8BA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		678451F21C38F08300A8BA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678451F71C38F08300A8BA14 /* SHTipCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHTipCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678451FB1C38F08300A8BA14 /* ColorChangeAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeAnimationTests.swift; sourceTree = "<group>"; };
+		678451FD1C38F08300A8BA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678452021C38F08300A8BA14 /* SHTipCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHTipCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678452061C38F08300A8BA14 /* ColorChangeAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeAnimationUITests.swift; sourceTree = "<group>"; };
+		678452081C38F08300A8BA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		678452141C38F8CB00A8BA14 /* CCAHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCAHomeViewController.swift; sourceTree = "<group>"; };
+		678452161C3A2C4300A8BA14 /* CCALinearInterpolationColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCALinearInterpolationColors.swift; sourceTree = "<group>"; };
+		67CFEF881C3AD3FE00F83EEA /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		67CFEF8F1C3B084700F83EEA /* daf7250099031398385091fb5416e385.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daf7250099031398385091fb5416e385.jpg; sourceTree = "<group>"; };
+		67CFEF901C3B084700F83EEA /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		67CFEF911C3B084700F83EEA /* Quicksand-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.otf"; sourceTree = "<group>"; };
+		67CFEF921C3B084700F83EEA /* Quicksand-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-BoldItalic.otf"; sourceTree = "<group>"; };
+		67CFEF931C3B084700F83EEA /* Quicksand-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Italic.otf"; sourceTree = "<group>"; };
+		67CFEF941C3B084700F83EEA /* Quicksand-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.otf"; sourceTree = "<group>"; };
+		67CFEF951C3B084700F83EEA /* Quicksand-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-LightItalic.otf"; sourceTree = "<group>"; };
+		67CFEF961C3B084700F83EEA /* Quicksand-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.otf"; sourceTree = "<group>"; };
+		67CFEF971C3B084700F83EEA /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		67CFEFA11C3B0B8900F83EEA /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		67CFEFAC1C3B4A7200F83EEA /* SHTipCalculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHTipCalculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		67CFEFB01C3B658A00F83EEA /* TipPercentageChangeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipPercentageChangeView.xib; sourceTree = "<group>"; };
+		67CFEFB21C3CB66100F83EEA /* CCALinearInterpolationPercentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCALinearInterpolationPercentage.swift; sourceTree = "<group>"; };
+		67CFEFB41C3D867C00F83EEA /* SHPressAndHoldGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHPressAndHoldGestureRecognizer.swift; sourceTree = "<group>"; };
+		67CFEFB61C3DF9CE00F83EEA /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		67CFEFBA1C3DFC0400F83EEA /* SHTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHTextField.swift; sourceTree = "<group>"; };
+		67CFEFBC1C3DFF9F00F83EEA /* SHSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHSettingsView.swift; sourceTree = "<group>"; };
+		CBF2EC58B0786047E8B4B557 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678451DD1C38F08300A8BA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17946AD4B653B2D6EE4F4963 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678451F41C38F08300A8BA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678451FF1C38F08300A8BA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D498DC835CC632457BF86D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BD09A18AE5B7ADD6AF83130 /* Pods.debug.xcconfig */,
+				CBF2EC58B0786047E8B4B557 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		678451D71C38F08300A8BA14 = {
+			isa = PBXGroup;
+			children = (
+				678451E21C38F08300A8BA14 /* ColorChangeAnimation */,
+				678451FA1C38F08300A8BA14 /* ColorChangeAnimationTests */,
+				678452051C38F08300A8BA14 /* ColorChangeAnimationUITests */,
+				678451E11C38F08300A8BA14 /* Products */,
+				27D498DC835CC632457BF86D /* Pods */,
+				9E169483AED9329EEE5960E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		678451E11C38F08300A8BA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				678451E01C38F08300A8BA14 /* SHTipCalculator.app */,
+				678451F71C38F08300A8BA14 /* SHTipCalculator.xctest */,
+				678452021C38F08300A8BA14 /* SHTipCalculator.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		678451E21C38F08300A8BA14 /* ColorChangeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				678451E31C38F08300A8BA14 /* AppDelegate.swift */,
+				67CFEFB81C3DFBBC00F83EEA /* Views */,
+				67CFEF8C1C3AFC5B00F83EEA /* View Controllers */,
+				67CFEF8B1C3AFC4700F83EEA /* Extensions */,
+				67CFEF8A1C3AFC3200F83EEA /* Utilities */,
+				67CFEF8D1C3B081F00F83EEA /* Resources */,
+				67CFEFAF1C3B64E100F83EEA /* Nibs */,
+				678451ED1C38F08300A8BA14 /* Assets.xcassets */,
+				678451F21C38F08300A8BA14 /* Info.plist */,
+				678451EA1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodeld */,
+				67CFEFAC1C3B4A7200F83EEA /* SHTipCalculator-Bridging-Header.h */,
+			);
+			path = ColorChangeAnimation;
+			sourceTree = "<group>";
+		};
+		678451FA1C38F08300A8BA14 /* ColorChangeAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				678451FB1C38F08300A8BA14 /* ColorChangeAnimationTests.swift */,
+				678451FD1C38F08300A8BA14 /* Info.plist */,
+			);
+			path = ColorChangeAnimationTests;
+			sourceTree = "<group>";
+		};
+		678452051C38F08300A8BA14 /* ColorChangeAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				678452061C38F08300A8BA14 /* ColorChangeAnimationUITests.swift */,
+				678452081C38F08300A8BA14 /* Info.plist */,
+			);
+			path = ColorChangeAnimationUITests;
+			sourceTree = "<group>";
+		};
+		67CFEF8A1C3AFC3200F83EEA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				678452161C3A2C4300A8BA14 /* CCALinearInterpolationColors.swift */,
+				67CFEFB21C3CB66100F83EEA /* CCALinearInterpolationPercentage.swift */,
+				67CFEFB41C3D867C00F83EEA /* SHPressAndHoldGestureRecognizer.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		67CFEF8B1C3AFC4700F83EEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67CFEF881C3AD3FE00F83EEA /* UIColor.swift */,
+				67CFEFA11C3B0B8900F83EEA /* UIFont.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		67CFEF8C1C3AFC5B00F83EEA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				678452141C38F8CB00A8BA14 /* CCAHomeViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		67CFEF8D1C3B081F00F83EEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67CFEF8E1C3B083000F83EEA /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67CFEF8E1C3B083000F83EEA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				67CFEF8F1C3B084700F83EEA /* daf7250099031398385091fb5416e385.jpg */,
+				67CFEF901C3B084700F83EEA /* Quicksand_Dash.otf */,
+				67CFEF911C3B084700F83EEA /* Quicksand-Bold.otf */,
+				67CFEF921C3B084700F83EEA /* Quicksand-BoldItalic.otf */,
+				67CFEF931C3B084700F83EEA /* Quicksand-Italic.otf */,
+				67CFEF941C3B084700F83EEA /* Quicksand-Light.otf */,
+				67CFEF951C3B084700F83EEA /* Quicksand-LightItalic.otf */,
+				67CFEF961C3B084700F83EEA /* Quicksand-Regular.otf */,
+				67CFEF971C3B084700F83EEA /* SIL Open Font License.txt */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		67CFEFAF1C3B64E100F83EEA /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				678451EF1C38F08300A8BA14 /* LaunchScreen.storyboard */,
+				678451E71C38F08300A8BA14 /* Main.storyboard */,
+				67CFEFB01C3B658A00F83EEA /* TipPercentageChangeView.xib */,
+				67CFEFB61C3DF9CE00F83EEA /* SettingsView.xib */,
+			);
+			name = Nibs;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		67CFEFB81C3DFBBC00F83EEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67CFEFBA1C3DFC0400F83EEA /* SHTextField.swift */,
+				67CFEFBC1C3DFF9F00F83EEA /* SHSettingsView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9E169483AED9329EEE5960E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32DDB9F7F59142BAEFCC629D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678451DF1C38F08300A8BA14 /* SHTipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6784520B1C38F08300A8BA14 /* Build configuration list for PBXNativeTarget "SHTipCalculator" */;
+			buildPhases = (
+				EC6387E9D2828BB27CFEC525 /* Check Pods Manifest.lock */,
+				678451DC1C38F08300A8BA14 /* Sources */,
+				678451DD1C38F08300A8BA14 /* Frameworks */,
+				678451DE1C38F08300A8BA14 /* Resources */,
+				1BDC6792DA153F03970F069F /* Embed Pods Frameworks */,
+				E9F34879E1111CEB904DA0B6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHTipCalculator;
+			productName = ColorChangeAnimation;
+			productReference = 678451E01C38F08300A8BA14 /* SHTipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		678451F61C38F08300A8BA14 /* SHTipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6784520E1C38F08300A8BA14 /* Build configuration list for PBXNativeTarget "SHTipCalculatorTests" */;
+			buildPhases = (
+				678451F31C38F08300A8BA14 /* Sources */,
+				678451F41C38F08300A8BA14 /* Frameworks */,
+				678451F51C38F08300A8BA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678451F91C38F08300A8BA14 /* PBXTargetDependency */,
+			);
+			name = SHTipCalculatorTests;
+			productName = ColorChangeAnimationTests;
+			productReference = 678451F71C38F08300A8BA14 /* SHTipCalculator.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		678452011C38F08300A8BA14 /* SHTipCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678452111C38F08300A8BA14 /* Build configuration list for PBXNativeTarget "SHTipCalculatorUITests" */;
+			buildPhases = (
+				678451FE1C38F08300A8BA14 /* Sources */,
+				678451FF1C38F08300A8BA14 /* Frameworks */,
+				678452001C38F08300A8BA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				678452041C38F08300A8BA14 /* PBXTargetDependency */,
+			);
+			name = SHTipCalculatorUITests;
+			productName = ColorChangeAnimationUITests;
+			productReference = 678452021C38F08300A8BA14 /* SHTipCalculator.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678451D81C38F08300A8BA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sruti;
+				TargetAttributes = {
+					678451DF1C38F08300A8BA14 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V32K2TFYV6;
+					};
+					678451F61C38F08300A8BA14 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 678451DF1C38F08300A8BA14;
+					};
+					678452011C38F08300A8BA14 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 678451DF1C38F08300A8BA14;
+					};
+				};
+			};
+			buildConfigurationList = 678451DB1C38F08300A8BA14 /* Build configuration list for PBXProject "SHTipCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678451D71C38F08300A8BA14;
+			productRefGroup = 678451E11C38F08300A8BA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678451DF1C38F08300A8BA14 /* SHTipCalculator */,
+				678451F61C38F08300A8BA14 /* SHTipCalculatorTests */,
+				678452011C38F08300A8BA14 /* SHTipCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678451DE1C38F08300A8BA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CFEF9A1C3B084700F83EEA /* Quicksand-Bold.otf in Resources */,
+				67CFEF9C1C3B084700F83EEA /* Quicksand-Italic.otf in Resources */,
+				67CFEF9B1C3B084700F83EEA /* Quicksand-BoldItalic.otf in Resources */,
+				67CFEFA01C3B084700F83EEA /* SIL Open Font License.txt in Resources */,
+				67CFEF991C3B084700F83EEA /* Quicksand_Dash.otf in Resources */,
+				67CFEF9E1C3B084700F83EEA /* Quicksand-LightItalic.otf in Resources */,
+				678451F11C38F08300A8BA14 /* LaunchScreen.storyboard in Resources */,
+				67CFEF9F1C3B084700F83EEA /* Quicksand-Regular.otf in Resources */,
+				67CFEF981C3B084700F83EEA /* daf7250099031398385091fb5416e385.jpg in Resources */,
+				67CFEF9D1C3B084700F83EEA /* Quicksand-Light.otf in Resources */,
+				678451EE1C38F08300A8BA14 /* Assets.xcassets in Resources */,
+				67CFEFB71C3DF9CE00F83EEA /* SettingsView.xib in Resources */,
+				67CFEFB11C3B658A00F83EEA /* TipPercentageChangeView.xib in Resources */,
+				678451E91C38F08300A8BA14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678451F51C38F08300A8BA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678452001C38F08300A8BA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BDC6792DA153F03970F069F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F34879E1111CEB904DA0B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6387E9D2828BB27CFEC525 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678451DC1C38F08300A8BA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678452151C38F8CB00A8BA14 /* CCAHomeViewController.swift in Sources */,
+				67CFEFB51C3D867C00F83EEA /* SHPressAndHoldGestureRecognizer.swift in Sources */,
+				678452171C3A2C4300A8BA14 /* CCALinearInterpolationColors.swift in Sources */,
+				67CFEFA21C3B0B8900F83EEA /* UIFont.swift in Sources */,
+				67CFEFBD1C3DFF9F00F83EEA /* SHSettingsView.swift in Sources */,
+				67CFEFBB1C3DFC0400F83EEA /* SHTextField.swift in Sources */,
+				678451EC1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodeld in Sources */,
+				678451E41C38F08300A8BA14 /* AppDelegate.swift in Sources */,
+				67CFEFB31C3CB66100F83EEA /* CCALinearInterpolationPercentage.swift in Sources */,
+				67CFEF891C3AD3FE00F83EEA /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678451F31C38F08300A8BA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678451FC1C38F08300A8BA14 /* ColorChangeAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678451FE1C38F08300A8BA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678452071C38F08300A8BA14 /* ColorChangeAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		678451F91C38F08300A8BA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678451DF1C38F08300A8BA14 /* SHTipCalculator */;
+			targetProxy = 678451F81C38F08300A8BA14 /* PBXContainerItemProxy */;
+		};
+		678452041C38F08300A8BA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678451DF1C38F08300A8BA14 /* SHTipCalculator */;
+			targetProxy = 678452031C38F08300A8BA14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		678451E71C38F08300A8BA14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678451E81C38F08300A8BA14 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ColorChangeAnimation;
+			sourceTree = "<group>";
+		};
+		678451EF1C38F08300A8BA14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				678451F01C38F08300A8BA14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ColorChangeAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		678452091C38F08300A8BA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6784520A1C38F08300A8BA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6784520C1C38F08300A8BA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD09A18AE5B7ADD6AF83130 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ColorChangeAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sruti.SHTipCalculator;
+				PRODUCT_NAME = SHTipCalculator;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColorChangeAnimation/SHTipCalculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6784520D1C38F08300A8BA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF2EC58B0786047E8B4B557 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ColorChangeAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sruti.SHTipCalculator;
+				PRODUCT_NAME = SHTipCalculator;
+				SWIFT_OBJC_BRIDGING_HEADER = "ColorChangeAnimation/SHTipCalculator-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6784520F1C38F08300A8BA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorChangeAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sruti.ColorChangeAnimationTests;
+				PRODUCT_NAME = SHTipCalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHTipCalculator.app/SHTipCalculator";
+			};
+			name = Debug;
+		};
+		678452101C38F08300A8BA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorChangeAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sruti.ColorChangeAnimationTests;
+				PRODUCT_NAME = SHTipCalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHTipCalculator.app/SHTipCalculator";
+			};
+			name = Release;
+		};
+		678452121C38F08300A8BA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorChangeAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sruti.ColorChangeAnimationUITests;
+				PRODUCT_NAME = SHTipCalculator;
+				TEST_TARGET_NAME = ColorChangeAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		678452131C38F08300A8BA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorChangeAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Sruti.ColorChangeAnimationUITests;
+				PRODUCT_NAME = SHTipCalculator;
+				TEST_TARGET_NAME = ColorChangeAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678451DB1C38F08300A8BA14 /* Build configuration list for PBXProject "SHTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678452091C38F08300A8BA14 /* Debug */,
+				6784520A1C38F08300A8BA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6784520B1C38F08300A8BA14 /* Build configuration list for PBXNativeTarget "SHTipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6784520C1C38F08300A8BA14 /* Debug */,
+				6784520D1C38F08300A8BA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6784520E1C38F08300A8BA14 /* Build configuration list for PBXNativeTarget "SHTipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6784520F1C38F08300A8BA14 /* Debug */,
+				678452101C38F08300A8BA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678452111C38F08300A8BA14 /* Build configuration list for PBXNativeTarget "SHTipCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678452121C38F08300A8BA14 /* Debug */,
+				678452131C38F08300A8BA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		678451EA1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				678451EB1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodel */,
+			);
+			currentVersion = 678451EB1C38F08300A8BA14 /* ColorChangeAnimation.xcdatamodel */;
+			path = ColorChangeAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 678451D81C38F08300A8BA14 /* Project object */;
+}
