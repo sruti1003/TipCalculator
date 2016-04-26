@@ -1,4 +1,4 @@
-# TipCalculator
+# SHTipCalculator
 This is a Tip Calculator application for iOS.
 
 This application is just a way to showcase custom UI Components in iOS. It used Swift and AutoLayout. For Animations, it uses UIKit Dynamics. There's a custom controller that interpolates the background color between different colors. 
