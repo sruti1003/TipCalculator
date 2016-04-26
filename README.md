@@ -1,15 +1,7 @@
 # TipCalculator
 This is a Tip Calculator application for iOS.
 
-Time spent: 20 Hours
-
-Completed:
-
-- [x] Required: User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-- [x] Required: Settings page to change the default tip percentage.
-- [x] Optional: Animations - (Using UIKit Dynamics as well as Animations for Auto Layout Elements)
-- [x] Optional: Remembering the bill amount across app restarts (if <10mins)
-
+This application is just a way to showcase custom UI Components in iOS. It used Swift and AutoLayout. For Animations, it uses UIKit Dynamics. There's a custom controller that interpolates the background color between different colors. 
 
 
 WORKING
